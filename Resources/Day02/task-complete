@@ -1,0 +1,13 @@
+We have expred the command with hands on
+docker init- docker init (available in Docker Desktop versions 4.19.0 and later) is a shortcut for creating the initial files needed to run your project in Docker containers. It analyzes your project, suggests a template (e.g., Node.js, Python), and prompts you for details. Then, it automatically generates a Dockerfile, .dockerignore, and optionally a docker-compose.yml and README.Docker.md file to get you started with Docker.
+
+docker images: This lists all Docker images currently available on your local machine.
+docker build .: This builds a Docker image based on a Dockerfile likely present in your getting-started-app directory. The dot (.) indicates building from the current directory.
+docker image ls: This again lists the images after the build, showing the newly created image
+docker image tag 5a53807d4b21 praveen1058/to-do-app:latest successfully tags the image by ID with the desired name praveen1058/to-do-app:latest
+docker push praveen1058/to-do-app:latest: This successfully pushes the image tagged as praveen1058/to-do-app:latest to your Docker Hub repository
+docker image rm to-do-app: This attempts to remove an image named to-do-app
+docker pull praveen1058/to-do-app:latest: This pulls the image you pushed to Docker Hub with the tag latest and stores it locally.
+docker container ls: This likely shows the newly pulled image.
+docker run -d --name con1 praveen1058/to-do-app: This runs a container from the praveen1058/to-do-app:latest image in detached mode (background) and names it con1.
+docker run -d --name con2 -p 3000:3000 praveen1058/to-do-app: This runs another container from the same image, detached, named con2, and maps the container port (likely 3000) to host port 3000
