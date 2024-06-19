@@ -11,3 +11,5 @@ docker pull praveen1058/to-do-app:latest: This pulls the image you pushed to Doc
 docker container ls: This likely shows the newly pulled image.
 docker run -d --name con1 praveen1058/to-do-app: This runs a container from the praveen1058/to-do-app:latest image in detached mode (background) and names it con1.
 docker run -d --name con2 -p 3000:3000 praveen1058/to-do-app: This runs another container from the same image, detached, named con2, and maps the container port (likely 3000) to host port 3000
+
+i have shared these content on my blog- https://tech-cloud-devops.blogspot.com/2024/06/day-240-unveiling-dockerfile-your.html and linedinpost as well- www.linkedin.com/in/praveen-cloud
