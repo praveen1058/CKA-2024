@@ -2,6 +2,8 @@
 
 This is the GitHub repository to host all the notes, diagrams, assignments, and resources from the CKA course published on YouTube.
 
+Note: If you found the content helpful, consider giving the repository a star ⭐
+
 **Checkout this [file](https://github.com/piyushsachdeva/CKA-2024/blob/main/%2340daysofkubernetes.md) for the #40daysofkubernetes challenge details**
 
 ### Day0: Intro to the series
@@ -21,12 +23,12 @@ This is the GitHub repository to host all the notes, diagrams, assignments, and 
 -  Docker commands
     
 ### Day 2 Video: Dockerize an application
-**Status**:  Video Live Date: 18th June
+**Status**: Video is live, check out 👉 [Day2](https://github.com/piyushsachdeva/CKA-2024/tree/main/Resources/Day02) 👈 folder for notes and useful links ✅
 - What is Dockerfile, and how do you write it?
 - docker pull , push, tag etc
 
 ## Day3 Video: Docker Multi-Stage Builds
-**Status**:  Video Live Date: 19th June
+**Status**: Video is live, check out 👉 [Day3](https://github.com/piyushsachdeva/CKA-2024/tree/main/Resources/Day03) 👈 folder for notes and useful links ✅
 - How to write a dockerfile for multistage build
 - Benefits of multi-stage builds
 - Other docker best practices
